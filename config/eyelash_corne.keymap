@@ -78,10 +78,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&kp GRAVE         &kp N1            &kp N2             &kp N3          &kp N4           &kp N5                                         &rgb_ug RGB_HUI                &kp N6     &kp N7         &kp N8         &kp N9                &kp N0                 &rgb_ug RGB_EFF
-&kp TILDE         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE                         &bt BT_SEL 0  &bt BT_CLR_ALL   &bt BT_SEL 1  &kp LEFT   &kp DOWN       &kp UP         &kp RIGHT             &kp BACKSLASH          &kp DELETE
-&kp LEFT_CONTROL  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR       &kp PERCENT   &rgb_ug RGB_EFR                  &rgb_ug RGB_HUD                &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F2
-                                                       &kp LEFT_SHIFT  &kp SPACE        &kp LEFT_GUI                                                                  &trans     &kp BACKSPACE  &kp RIGHT_ALT
+&kp GRAVE         &kp N1            &kp N2             &kp N3          &kp N4           &kp N5                                       &rgb_ug RGB_HUI              &kp N6     &kp N7         &kp N8         &kp N9                &kp N0                 &rgb_ug RGB_EFF
+&kp TILDE         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE                         &bt BT_PRV  &bt BT_CLR_ALL   &bt BT_NXT  &kp LEFT   &kp DOWN       &kp UP         &kp RIGHT             &kp BACKSLASH          &kp DELETE
+&kp LEFT_CONTROL  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR       &kp PERCENT   &rgb_ug RGB_EFR                &rgb_ug RGB_HUD              &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F2
+                                                       &kp LEFT_SHIFT  &kp SPACE        &kp LEFT_GUI                                                              &trans     &kp BACKSPACE  &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&rgb_encoder>;
